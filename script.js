@@ -34,7 +34,7 @@ document.addEventListener('keydown', (e) => {
     isCatWatching &&
     ['w','W','a','A','s','S','d','D','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.key)
   ) {
-    endGame("¡Perdiste! El gato te vio.");
+    endGame("¡Perdiste! Rex te vio.");
   }
   keys[e.key] = true;
 });
